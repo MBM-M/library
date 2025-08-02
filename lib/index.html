@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Library</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Library</h1>
+  <dialog>
+    <form id="add-book-form">
+      <input type="text" id="title" placeholder="Title" required>
+      <input type="text" id="author" placeholder="Author" required>
+      <input type="number" id="pages" placeholder="Pages" required>
+      <label>
+        <input type="checkbox" id="isRead">
+        Read
+      </label>
+      <button type="submit">Add Book</button>
+      <button id="cancel-dialog">Cancel</button>
+    </form>
+  </dialog>
+  <button id="new-book-btn">New Book</button>
+  <div id="book-list"></div>
+</body>
+</html>
