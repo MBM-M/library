@@ -33,6 +33,7 @@ input[type="text"], input[type="number"] {
 
 button {
   padding: 0.5rem 1rem;
+  margin: auto 0.5rem;
   background: #007bff;
   color: #fff;
   border: none;
@@ -44,7 +45,7 @@ button:hover {
   background: #0056b3;
 }
 
-.book-card {
+.book-card { 
   border: 2px solid #0056b3;
   border-radius: 6px;
   padding: 1rem;
